@@ -28,6 +28,6 @@ m = int(input("Enter m:"))
 n = int(input("Enter n:"))
 p = prime(m,n)
 f = fib(m,n)
-print(f"Prime numbers from {m} to {n} are {p}")
-print(f"Fibonacci numbers from {m} to {n} are {f}")
+print(f"Prime numbers from {m} to {n} are {p}\nMax of primes:{max(p)}\nSum of primes:{sum(p)}")
+print(f"Fibonacci numbers from {m} to {n} are {f}\nMax of fibs:{max(f)}\nSum of fibs:{sum(f)}")
 #end of code
